@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* DIVISORIA */
+
+.header-bar {
+  background-color: #ffeee8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-lou {
+  margin: 2rem 13.75rem;
+  height: 2rem;
+}
+
+.list-menu {
+  margin: 2rem 13.75rem;
+  height: 2rem;
+  display: flex;
+  list-style-type: none;
+  gap: 2.5rem;
+  place-items: center;
+}
