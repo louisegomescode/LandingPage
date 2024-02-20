@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: poppins;
 }
 
 a {
@@ -10,22 +11,88 @@ a {
 
 /* DIVISORIA */
 
-.header-bar {
+nav {
   background-color: #ffeee8;
   display: flex;
   justify-content: space-between;
 }
 
 .logo-lou {
-  margin: 2rem 13.75rem;
+  margin: 2rem 16.25rem;
   height: 2rem;
 }
 
 .list-menu {
-  margin: 2rem 13.75rem;
+  margin: 2rem 16.25rem;
   height: 2rem;
   display: flex;
   list-style-type: none;
   gap: 2.5rem;
   place-items: center;
+}
+
+/* DIVISORIA */
+
+main {
+  background-color: #ffeee8;
+  display: flex;
+  justify-content: space-between;
+}
+
+main div h1 span {
+  color: #a95d42;
+}
+
+.main-left {
+  display: inline-block;
+}
+
+.main-left h1 {
+  font-size: 3.75rem;
+  line-height: 1.1;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 16.25rem;
+}
+
+.main-left p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 16.25rem;
+}
+
+.main-left a img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  fill: #fff;
+  color: #fff;
+}
+
+.main-left a {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 16.25rem;
+  display: inline-block;
+  background-color: #a95d42;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.personal-description {
+  width: 35rem;
+}
+
+.div-image-top {
+  overflow: visible;
+  height: 37.5rem;
+}
+
+.image-top {
+  width: 35rem;
+  height: auto;
+  max-width: 100%;
+  margin-right: 16.25rem;
+  border-radius: 0.4rem;
 }
