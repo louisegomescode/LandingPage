@@ -37,6 +37,7 @@ main {
   background-color: #ffeee8;
   display: flex;
   justify-content: space-between;
+  gap: 2.5rem;
 }
 
 main div h1 span {
@@ -56,7 +57,7 @@ main div h1 span {
 }
 
 .main-left p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 16.25rem;
@@ -95,4 +96,67 @@ main div h1 span {
   max-width: 100%;
   margin-right: 16.25rem;
   border-radius: 0.4rem;
+}
+
+/* DIVISORIA */
+
+.title-section {
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 16.25rem;
+}
+
+.period-section {
+  color: #a95d42;
+}
+
+.sections-links-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 16.25rem;
+  margin-right: 16.25rem;
+  gap: 2.5rem;
+}
+
+.child-portfolio {
+  width: calc((33.33% - 2 * 2.5rem) - 2rem);
+}
+
+/* DIVISORIA */
+.contact-sections {
+  background-color: #ffeee8;
+  padding-bottom: 5rem;
+}
+
+.contact-sections h2 {
+  padding-top: 5rem;
+}
+
+.contacts-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16.25rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacts-div a {
+  flex-basis: calc(35% - 10px);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* DIVISORIA */
+
+footer {
+  background: #a95d42;
+}
+
+footer p {
+  margin-left: 16.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
